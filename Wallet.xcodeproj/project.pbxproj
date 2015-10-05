@@ -12,6 +12,7 @@
 		9A653B521BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */; };
 		9A653B531BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */; };
 		9A653B561BA5CDB9004ABC5C /* ControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A653B551BA5CDB9004ABC5C /* ControllerTest.m */; };
+		9A7A69161BC2DBD300207825 /* WalletTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A69151BC2DBD300207825 /* WalletTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		9AAAD5C21B9E0F4F0053F59B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C11B9E0F4F0053F59B /* main.m */; };
 		9AAAD5C51B9E0F4F0053F59B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C41B9E0F4F0053F59B /* AppDelegate.m */; };
 		9AAAD5C81B9E0F4F0053F59B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C71B9E0F4F0053F59B /* ViewController.m */; };
@@ -46,6 +47,8 @@
 		9A653B4E1BA5CD7B004ABC5C /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
 		9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleViewController.xib; sourceTree = "<group>"; };
 		9A653B551BA5CDB9004ABC5C /* ControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerTest.m; sourceTree = "<group>"; };
+		9A7A69141BC2DBD300207825 /* WalletTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletTableViewController.h; sourceTree = "<group>"; };
+		9A7A69151BC2DBD300207825 /* WalletTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletTableViewController.m; sourceTree = "<group>"; };
 		9AAAD5BC1B9E0F4F0053F59B /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAAD5C01B9E0F4F0053F59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AAAD5C11B9E0F4F0053F59B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				9A653B4D1BA5CD7B004ABC5C /* SimpleViewController.h */,
 				9A653B4E1BA5CD7B004ABC5C /* SimpleViewController.m */,
 				9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */,
+				9A7A69141BC2DBD300207825 /* WalletTableViewController.h */,
+				9A7A69151BC2DBD300207825 /* WalletTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -246,7 +251,7 @@
 		9AAAD5B41B9E0F4F0053F59B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = manuelainc;
 				TargetAttributes = {
 					9AAAD5BB1B9E0F4F0053F59B = {
@@ -309,6 +314,7 @@
 				9A653B501BA5CD7B004ABC5C /* SimpleViewController.m in Sources */,
 				9ADBD2CF1BA3117600735722 /* Wallet.m in Sources */,
 				9AAAD5C81B9E0F4F0053F59B /* ViewController.m in Sources */,
+				9A7A69161BC2DBD300207825 /* WalletTableViewController.m in Sources */,
 				9AAAD5C51B9E0F4F0053F59B /* AppDelegate.m in Sources */,
 				9ADBD2C91BA2EC0300735722 /* Broker.m in Sources */,
 				9AAAD5C21B9E0F4F0053F59B /* main.m in Sources */,
@@ -382,6 +388,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -449,6 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Wallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuelainc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -459,6 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Wallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuelainc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -477,6 +486,7 @@
 				);
 				INFOPLIST_FILE = WalletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuelainc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallet.app/Wallet";
 			};
@@ -492,6 +502,7 @@
 				);
 				INFOPLIST_FILE = WalletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuelainc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallet.app/Wallet";
 			};
