@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A653B501BA5CD7B004ABC5C /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A653B4E1BA5CD7B004ABC5C /* SimpleViewController.m */; };
+		9A653B511BA5CD7B004ABC5C /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A653B4E1BA5CD7B004ABC5C /* SimpleViewController.m */; };
+		9A653B521BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */; };
+		9A653B531BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */; };
+		9A653B561BA5CDB9004ABC5C /* ControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A653B551BA5CDB9004ABC5C /* ControllerTest.m */; };
 		9AAAD5C21B9E0F4F0053F59B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C11B9E0F4F0053F59B /* main.m */; };
 		9AAAD5C51B9E0F4F0053F59B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C41B9E0F4F0053F59B /* AppDelegate.m */; };
 		9AAAD5C81B9E0F4F0053F59B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C71B9E0F4F0053F59B /* ViewController.m */; };
 		9AAAD5CB1B9E0F4F0053F59B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C91B9E0F4F0053F59B /* Main.storyboard */; };
 		9AAAD5CD1B9E0F4F0053F59B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAD5CC1B9E0F4F0053F59B /* Images.xcassets */; };
 		9AAAD5D01B9E0F4F0053F59B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAD5CE1B9E0F4F0053F59B /* LaunchScreen.xib */; };
+		9ADBD2C61BA2EB0E00735722 /* BrokerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBD2C51BA2EB0E00735722 /* BrokerTest.m */; };
+		9ADBD2C91BA2EC0300735722 /* Broker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBD2C81BA2EC0300735722 /* Broker.m */; };
+		9ADBD2CA1BA2EC2100735722 /* Broker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBD2C81BA2EC0300735722 /* Broker.m */; };
+		9ADBD2CC1BA2FD6200735722 /* WalletTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBD2CB1BA2FD6200735722 /* WalletTest.m */; };
+		9ADBD2CF1BA3117600735722 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBD2CE1BA3117600735722 /* Wallet.m */; };
+		9ADBD2D01BA3127300735722 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBD2CE1BA3117600735722 /* Wallet.m */; };
 		9AEA2F2D1BA04A69004B2D61 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA2F2C1BA04A69004B2D61 /* Money.m */; };
 		9AEA2F2E1BA04A69004B2D61 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA2F2C1BA04A69004B2D61 /* Money.m */; };
 		9AEA2F321BA04CB3004B2D61 /* NSObject+GNUStepAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA2F311BA04CB3004B2D61 /* NSObject+GNUStepAddons.m */; };
@@ -31,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A653B4D1BA5CD7B004ABC5C /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		9A653B4E1BA5CD7B004ABC5C /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
+		9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleViewController.xib; sourceTree = "<group>"; };
+		9A653B551BA5CDB9004ABC5C /* ControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerTest.m; sourceTree = "<group>"; };
 		9AAAD5BC1B9E0F4F0053F59B /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAAD5C01B9E0F4F0053F59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AAAD5C11B9E0F4F0053F59B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +58,12 @@
 		9AAAD5CF1B9E0F4F0053F59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9AAAD5D51B9E0F4F0053F59B /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAAD5DA1B9E0F4F0053F59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ADBD2C51BA2EB0E00735722 /* BrokerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrokerTest.m; sourceTree = "<group>"; };
+		9ADBD2C71BA2EC0300735722 /* Broker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Broker.h; sourceTree = "<group>"; };
+		9ADBD2C81BA2EC0300735722 /* Broker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Broker.m; sourceTree = "<group>"; };
+		9ADBD2CB1BA2FD6200735722 /* WalletTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletTest.m; sourceTree = "<group>"; };
+		9ADBD2CD1BA3117600735722 /* Wallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wallet.h; sourceTree = "<group>"; };
+		9ADBD2CE1BA3117600735722 /* Wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wallet.m; sourceTree = "<group>"; };
 		9AEA2F2B1BA04A69004B2D61 /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
 		9AEA2F2C1BA04A69004B2D61 /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
 		9AEA2F301BA04CB3004B2D61 /* NSObject+GNUStepAddons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GNUStepAddons.h"; sourceTree = "<group>"; };
@@ -68,6 +89,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A653B4C1BA5CD58004ABC5C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A653B4D1BA5CD7B004ABC5C /* SimpleViewController.h */,
+				9A653B4E1BA5CD7B004ABC5C /* SimpleViewController.m */,
+				9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9A653B541BA5CD89004ABC5C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A653B551BA5CDB9004ABC5C /* ControllerTest.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		9AAAD5B31B9E0F4F0053F59B = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +132,7 @@
 				9AAAD5C41B9E0F4F0053F59B /* AppDelegate.m */,
 				9AAAD5C61B9E0F4F0053F59B /* ViewController.h */,
 				9AAAD5C71B9E0F4F0053F59B /* ViewController.m */,
+				9A653B4C1BA5CD58004ABC5C /* Controllers */,
 				9AEA2F2F1BA04C90004B2D61 /* Categories */,
 				9AEA2F2A1BA047B7004B2D61 /* Dollar */,
 				9AAAD5C91B9E0F4F0053F59B /* Main.storyboard */,
@@ -115,6 +155,7 @@
 		9AAAD5D81B9E0F4F0053F59B /* WalletTests */ = {
 			isa = PBXGroup;
 			children = (
+				9A653B541BA5CD89004ABC5C /* Controllers */,
 				9AAAD5E51B9E10050053F59B /* Models */,
 				9AAAD5D91B9E0F4F0053F59B /* Supporting Files */,
 			);
@@ -133,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				9AEA2F341BA05015004B2D61 /* MoneyTest.m */,
+				9ADBD2C51BA2EB0E00735722 /* BrokerTest.m */,
+				9ADBD2CB1BA2FD6200735722 /* WalletTest.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -142,6 +185,10 @@
 			children = (
 				9AEA2F2B1BA04A69004B2D61 /* Money.h */,
 				9AEA2F2C1BA04A69004B2D61 /* Money.m */,
+				9ADBD2C71BA2EC0300735722 /* Broker.h */,
+				9ADBD2C81BA2EC0300735722 /* Broker.m */,
+				9ADBD2CD1BA3117600735722 /* Wallet.h */,
+				9ADBD2CE1BA3117600735722 /* Wallet.m */,
 			);
 			name = Dollar;
 			sourceTree = "<group>";
@@ -237,6 +284,7 @@
 			files = (
 				9AAAD5CB1B9E0F4F0053F59B /* Main.storyboard in Resources */,
 				9AAAD5D01B9E0F4F0053F59B /* LaunchScreen.xib in Resources */,
+				9A653B521BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */,
 				9AAAD5CD1B9E0F4F0053F59B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A653B531BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +306,11 @@
 			files = (
 				9AEA2F2D1BA04A69004B2D61 /* Money.m in Sources */,
 				9AEA2F321BA04CB3004B2D61 /* NSObject+GNUStepAddons.m in Sources */,
+				9A653B501BA5CD7B004ABC5C /* SimpleViewController.m in Sources */,
+				9ADBD2CF1BA3117600735722 /* Wallet.m in Sources */,
 				9AAAD5C81B9E0F4F0053F59B /* ViewController.m in Sources */,
 				9AAAD5C51B9E0F4F0053F59B /* AppDelegate.m in Sources */,
+				9ADBD2C91BA2EC0300735722 /* Broker.m in Sources */,
 				9AAAD5C21B9E0F4F0053F59B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADBD2C61BA2EB0E00735722 /* BrokerTest.m in Sources */,
 				9AEA2F351BA05015004B2D61 /* MoneyTest.m in Sources */,
+				9A653B511BA5CD7B004ABC5C /* SimpleViewController.m in Sources */,
+				9ADBD2D01BA3127300735722 /* Wallet.m in Sources */,
+				9ADBD2CC1BA2FD6200735722 /* WalletTest.m in Sources */,
 				9AEA2F2E1BA04A69004B2D61 /* Money.m in Sources */,
 				9AEA2F331BA04CB3004B2D61 /* NSObject+GNUStepAddons.m in Sources */,
+				9ADBD2CA1BA2EC2100735722 /* Broker.m in Sources */,
+				9A653B561BA5CDB9004ABC5C /* ControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

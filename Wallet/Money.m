@@ -7,6 +7,7 @@
 //
 
 #import "Money.h"
+#import "Broker.h"
 #import "NSObject+GNUStepAddons.h"
 
 @interface Money ()
@@ -38,7 +39,7 @@
     
 }
 
-- (id) times:(NSInteger)multiplier{
+- (id<Money>) times:(NSInteger)multiplier{
 
     Money *newMoney = [[Money alloc] initWithAmount:[self.amount integerValue] * multiplier
                                            currency:self.currency];
@@ -50,7 +51,7 @@
    // return [self subclassResponsability: _cmd]; //_cmd get parameter actual selector
 }
 
-- (id)plus:(Money*)other{
+- (id<Money>)plus:(Money*)other{
     
     NSInteger totalAmount = [self.amount integerValue] + [other.amount integerValue];
     
@@ -60,9 +61,40 @@
     return total;
 }
 
+- (id<Money>)reduceToCurrency:(NSString*) currency withBroker:(Broker*) broker{
+    
+    Money *result;
+    double rate = [[broker.rates
+                    objectForKey:[broker keyFromCurrency:self.currency
+                                            toCurrency:currency]] doubleValue];
+    
+    //comprobamos que divisa de origen y de destino son las mismas
+    if ([self.currency isEqual:currency]) {
+        result = self;
+    }else if (rate == 0){
+        //No hay tasa de conversion, lanza exception
+        [NSException raise:@"NoConversionRateException"
+                    format:@"Must to have a conversion from %@ to %@", self.currency, currency];
+    }else{
+        //Tenemos conversion
+        double rate = [[broker.rates objectForKey:[broker keyFromCurrency:self.currency toCurrency:currency]] doubleValue];
+        
+        NSInteger newAmount = [self.amount integerValue] * rate;
+        
+        result = [[Money alloc] initWithAmount:newAmount currency:currency];
+    }
+    
+    
+    
+    return result;
+
+    
+}
+
+
 #pragma mark - OverWritten methods
 - (NSString *)description{
-    return [NSString stringWithFormat:@"<%@ %ld>", [self class], (long)[self amount]];
+    return [NSString stringWithFormat:@"<%@: %@ %@>", [self class], [self currency], [self amount]];
 }
 
 - (BOOL)isEqual:(id)object{
@@ -77,7 +109,7 @@
 
 - (NSUInteger) hash{
     
-    return (NSUInteger) self.amount;
+    return [self.amount integerValue];
 }
 
 @end
