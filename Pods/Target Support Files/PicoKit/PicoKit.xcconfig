@@ -1,0 +1,2 @@
+PICOKIT_HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2
+PICOKIT_OTHER_LDFLAGS = -l"xml2" -framework "CFNetwork" -framework "MobileCoreServices" -framework "SystemConfiguration"
