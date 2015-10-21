@@ -16,9 +16,50 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="USD" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w6E-tH-27w">
+                                <rect key="frame" x="200" y="30" width="200" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="d0i-UK-ejb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="EUR" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KQd-5p-YRt">
+                                <rect key="frame" x="200" y="80" width="200" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="PdS-7B-Cm5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMO-d6-3nF">
+                                <rect key="frame" x="277" y="130" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onConvertClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NJW-lm-MUK"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w6E-tH-27w" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="IgL-Vn-KUl"/>
+                            <constraint firstItem="KQd-5p-YRt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a9D-yH-pCh"/>
+                            <constraint firstItem="uMO-d6-3nF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f2b-Pc-vNR"/>
+                            <constraint firstItem="w6E-tH-27w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nEo-9I-cwt"/>
+                            <constraint firstItem="KQd-5p-YRt" firstAttribute="top" secondItem="w6E-tH-27w" secondAttribute="bottom" constant="20" id="uMB-DX-d1G"/>
+                            <constraint firstItem="uMO-d6-3nF" firstAttribute="top" secondItem="KQd-5p-YRt" secondAttribute="bottom" constant="20" id="uVl-Di-vLY"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="convertButton" destination="uMO-d6-3nF" id="W8L-ih-q61"/>
+                        <outlet property="fromCurrencyTextField" destination="w6E-tH-27w" id="1IL-sk-0zd"/>
+                        <outlet property="toCurrencyTextField" destination="KQd-5p-YRt" id="i2a-Vb-95e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

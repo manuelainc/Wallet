@@ -11,5 +11,9 @@
 @interface ViewController : UIViewController
 
 
-@end
+@property (retain, nonatomic) IBOutlet UITextField *fromCurrencyTextField;
+@property (retain, nonatomic) IBOutlet UITextField *toCurrencyTextField;
+@property (retain, nonatomic) IBOutlet UIButton *convertButton;
+@property (retain, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
+@end

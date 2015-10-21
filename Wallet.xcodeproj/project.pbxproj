@@ -14,6 +14,12 @@
 		9A653B531BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */; };
 		9A653B561BA5CDB9004ABC5C /* ControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A653B551BA5CDB9004ABC5C /* ControllerTest.m */; };
 		9A7A69161BC2DBD300207825 /* WalletTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A69151BC2DBD300207825 /* WalletTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9A9353891BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353881BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.m */; settings = {ASSET_TAGS = (); }; };
+		9A9353951BD7F06B00114781 /* ConversionRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353901BD7F06B00114781 /* ConversionRate.m */; settings = {ASSET_TAGS = (); }; };
+		9A9353961BD7F06B00114781 /* ConversionRateResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353921BD7F06B00114781 /* ConversionRateResponse.m */; settings = {ASSET_TAGS = (); }; };
+		9A9353971BD7F06B00114781 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353941BD7F06B00114781 /* Currency.m */; settings = {ASSET_TAGS = (); }; };
+		9A93539B1BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93539A1BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.m */; settings = {ASSET_TAGS = (); }; };
+		9A93539E1BD7F13D00114781 /* CurrencyConverterSerivceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93539D1BD7F13D00114781 /* CurrencyConverterSerivceClient.m */; settings = {ASSET_TAGS = (); }; };
 		9AAAD5C21B9E0F4F0053F59B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C11B9E0F4F0053F59B /* main.m */; };
 		9AAAD5C51B9E0F4F0053F59B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C41B9E0F4F0053F59B /* AppDelegate.m */; };
 		9AAAD5C81B9E0F4F0053F59B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C71B9E0F4F0053F59B /* ViewController.m */; };
@@ -53,6 +59,19 @@
 		9A653B551BA5CDB9004ABC5C /* ControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerTest.m; sourceTree = "<group>"; };
 		9A7A69141BC2DBD300207825 /* WalletTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletTableViewController.h; sourceTree = "<group>"; };
 		9A7A69151BC2DBD300207825 /* WalletTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletTableViewController.m; sourceTree = "<group>"; };
+		9A9353871BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyConvertorSoap_SOAPClient.h; path = Client/CurrencyConvertorSoap_SOAPClient.h; sourceTree = "<group>"; };
+		9A9353881BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyConvertorSoap_SOAPClient.m; path = Client/CurrencyConvertorSoap_SOAPClient.m; sourceTree = "<group>"; };
+		9A93538B1BD7F00C00114781 /* CommonTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTypes.h; sourceTree = "<group>"; };
+		9A93538F1BD7F06B00114781 /* ConversionRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversionRate.h; sourceTree = "<group>"; };
+		9A9353901BD7F06B00114781 /* ConversionRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversionRate.m; sourceTree = "<group>"; };
+		9A9353911BD7F06B00114781 /* ConversionRateResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversionRateResponse.h; sourceTree = "<group>"; };
+		9A9353921BD7F06B00114781 /* ConversionRateResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversionRateResponse.m; sourceTree = "<group>"; };
+		9A9353931BD7F06B00114781 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		9A9353941BD7F06B00114781 /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
+		9A9353991BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConvertorSoap_XMLClient.h; sourceTree = "<group>"; };
+		9A93539A1BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConvertorSoap_XMLClient.m; sourceTree = "<group>"; };
+		9A93539C1BD7F13D00114781 /* CurrencyConverterSerivceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConverterSerivceClient.h; sourceTree = "<group>"; };
+		9A93539D1BD7F13D00114781 /* CurrencyConverterSerivceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterSerivceClient.m; sourceTree = "<group>"; };
 		9AAAD5BC1B9E0F4F0053F59B /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAAD5C01B9E0F4F0053F59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AAAD5C11B9E0F4F0053F59B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -134,6 +153,33 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		9A93538A1BD7EFB600114781 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				9A9353991BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.h */,
+				9A93539A1BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.m */,
+				9A9353871BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.h */,
+				9A9353881BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.m */,
+				9A93539C1BD7F13D00114781 /* CurrencyConverterSerivceClient.h */,
+				9A93539D1BD7F13D00114781 /* CurrencyConverterSerivceClient.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		9A9353981BD7F07700114781 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				9A93538B1BD7F00C00114781 /* CommonTypes.h */,
+				9A93538F1BD7F06B00114781 /* ConversionRate.h */,
+				9A9353901BD7F06B00114781 /* ConversionRate.m */,
+				9A9353911BD7F06B00114781 /* ConversionRateResponse.h */,
+				9A9353921BD7F06B00114781 /* ConversionRateResponse.m */,
+				9A9353931BD7F06B00114781 /* Currency.h */,
+				9A9353941BD7F06B00114781 /* Currency.m */,
+			);
+			name = Proxy;
+			sourceTree = "<group>";
+		};
 		9AAAD5B31B9E0F4F0053F59B = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +207,8 @@
 				9AAAD5C41B9E0F4F0053F59B /* AppDelegate.m */,
 				9AAAD5C61B9E0F4F0053F59B /* ViewController.h */,
 				9AAAD5C71B9E0F4F0053F59B /* ViewController.m */,
+				9A9353981BD7F07700114781 /* Proxy */,
+				9A93538A1BD7EFB600114781 /* Client */,
 				9A653B4C1BA5CD58004ABC5C /* Controllers */,
 				9AEA2F2F1BA04C90004B2D61 /* Categories */,
 				9AEA2F2A1BA047B7004B2D61 /* Dollar */,
@@ -373,10 +421,16 @@
 				9A653B501BA5CD7B004ABC5C /* SimpleViewController.m in Sources */,
 				9ADBD2CF1BA3117600735722 /* Wallet.m in Sources */,
 				9AAAD5C81B9E0F4F0053F59B /* ViewController.m in Sources */,
+				9A93539B1BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.m in Sources */,
 				9A7A69161BC2DBD300207825 /* WalletTableViewController.m in Sources */,
 				9AAAD5C51B9E0F4F0053F59B /* AppDelegate.m in Sources */,
 				9ADBD2C91BA2EC0300735722 /* Broker.m in Sources */,
+				9A9353961BD7F06B00114781 /* ConversionRateResponse.m in Sources */,
+				9A9353891BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.m in Sources */,
+				9A9353971BD7F06B00114781 /* Currency.m in Sources */,
 				9AAAD5C21B9E0F4F0053F59B /* main.m in Sources */,
+				9A9353951BD7F06B00114781 /* ConversionRate.m in Sources */,
+				9A93539E1BD7F13D00114781 /* CurrencyConverterSerivceClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
