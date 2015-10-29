@@ -3,7 +3,8 @@
 
 target 'Wallet' do
 
-pod ‘PicoKit’
+pod 'PicoKit'
+pod 'Realm'
 
 end
 

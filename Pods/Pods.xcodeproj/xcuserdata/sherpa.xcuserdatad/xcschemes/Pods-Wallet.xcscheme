@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "368363A01FADCCF2C799ACF4"
+               BlueprintIdentifier = "8EAB3A167839C1E69A2D9398"
                BuildableName = "libPods-Wallet.a"
                BlueprintName = "Pods-Wallet"
                ReferencedContainer = "container:Pods.xcodeproj">

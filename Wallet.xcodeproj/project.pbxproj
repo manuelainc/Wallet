@@ -8,24 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		72663ECB635B729A46DD81AD /* libPods-Wallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C0D83341619D9A49A9CC70 /* libPods-Wallet.a */; };
-		9A653B501BA5CD7B004ABC5C /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A653B4E1BA5CD7B004ABC5C /* SimpleViewController.m */; };
-		9A653B511BA5CD7B004ABC5C /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A653B4E1BA5CD7B004ABC5C /* SimpleViewController.m */; };
-		9A653B521BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */; };
-		9A653B531BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */; };
 		9A653B561BA5CDB9004ABC5C /* ControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A653B551BA5CDB9004ABC5C /* ControllerTest.m */; };
-		9A7A69161BC2DBD300207825 /* WalletTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A69151BC2DBD300207825 /* WalletTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		9A9353891BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353881BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.m */; settings = {ASSET_TAGS = (); }; };
-		9A9353951BD7F06B00114781 /* ConversionRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353901BD7F06B00114781 /* ConversionRate.m */; settings = {ASSET_TAGS = (); }; };
-		9A9353961BD7F06B00114781 /* ConversionRateResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353921BD7F06B00114781 /* ConversionRateResponse.m */; settings = {ASSET_TAGS = (); }; };
-		9A9353971BD7F06B00114781 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353941BD7F06B00114781 /* Currency.m */; settings = {ASSET_TAGS = (); }; };
-		9A93539B1BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93539A1BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.m */; settings = {ASSET_TAGS = (); }; };
-		9A93539E1BD7F13D00114781 /* CurrencyConverterSerivceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93539D1BD7F13D00114781 /* CurrencyConverterSerivceClient.m */; settings = {ASSET_TAGS = (); }; };
+		9A9353891BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353881BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.m */; };
+		9A9353951BD7F06B00114781 /* ConversionRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353901BD7F06B00114781 /* ConversionRate.m */; };
+		9A9353961BD7F06B00114781 /* ConversionRateResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353921BD7F06B00114781 /* ConversionRateResponse.m */; };
+		9A9353971BD7F06B00114781 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9353941BD7F06B00114781 /* Currency.m */; };
+		9A93539B1BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93539A1BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.m */; };
+		9A93539E1BD7F13D00114781 /* CurrencyConverterSerivceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A93539D1BD7F13D00114781 /* CurrencyConverterSerivceClient.m */; };
 		9AAAD5C21B9E0F4F0053F59B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C11B9E0F4F0053F59B /* main.m */; };
 		9AAAD5C51B9E0F4F0053F59B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C41B9E0F4F0053F59B /* AppDelegate.m */; };
-		9AAAD5C81B9E0F4F0053F59B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C71B9E0F4F0053F59B /* ViewController.m */; };
+		9AAAD5C81B9E0F4F0053F59B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C71B9E0F4F0053F59B /* MainViewController.m */; };
 		9AAAD5CB1B9E0F4F0053F59B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAD5C91B9E0F4F0053F59B /* Main.storyboard */; };
 		9AAAD5CD1B9E0F4F0053F59B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAD5CC1B9E0F4F0053F59B /* Images.xcassets */; };
 		9AAAD5D01B9E0F4F0053F59B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAAD5CE1B9E0F4F0053F59B /* LaunchScreen.xib */; };
+		9AC700651BD94FB300A07435 /* ConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC700641BD94FB300A07435 /* ConverterViewController.m */; };
 		9ADBD2C61BA2EB0E00735722 /* BrokerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBD2C51BA2EB0E00735722 /* BrokerTest.m */; };
 		9ADBD2C91BA2EC0300735722 /* Broker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBD2C81BA2EC0300735722 /* Broker.m */; };
 		9ADBD2CA1BA2EC2100735722 /* Broker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBD2C81BA2EC0300735722 /* Broker.m */; };
@@ -53,12 +49,7 @@
 		1106C3A67A3EA83720F166D0 /* Pods-Wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wallet/Pods-Wallet.debug.xcconfig"; sourceTree = "<group>"; };
 		1E2DC3994AEC8E882700730C /* Pods-Wallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wallet/Pods-Wallet.release.xcconfig"; sourceTree = "<group>"; };
 		28C0D83341619D9A49A9CC70 /* libPods-Wallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A653B4D1BA5CD7B004ABC5C /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
-		9A653B4E1BA5CD7B004ABC5C /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
-		9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleViewController.xib; sourceTree = "<group>"; };
 		9A653B551BA5CDB9004ABC5C /* ControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerTest.m; sourceTree = "<group>"; };
-		9A7A69141BC2DBD300207825 /* WalletTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletTableViewController.h; sourceTree = "<group>"; };
-		9A7A69151BC2DBD300207825 /* WalletTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletTableViewController.m; sourceTree = "<group>"; };
 		9A9353871BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyConvertorSoap_SOAPClient.h; path = Client/CurrencyConvertorSoap_SOAPClient.h; sourceTree = "<group>"; };
 		9A9353881BD7EFB100114781 /* CurrencyConvertorSoap_SOAPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyConvertorSoap_SOAPClient.m; path = Client/CurrencyConvertorSoap_SOAPClient.m; sourceTree = "<group>"; };
 		9A93538B1BD7F00C00114781 /* CommonTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTypes.h; sourceTree = "<group>"; };
@@ -77,13 +68,15 @@
 		9AAAD5C11B9E0F4F0053F59B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AAAD5C31B9E0F4F0053F59B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AAAD5C41B9E0F4F0053F59B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9AAAD5C61B9E0F4F0053F59B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9AAAD5C71B9E0F4F0053F59B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AAAD5C61B9E0F4F0053F59B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9AAAD5C71B9E0F4F0053F59B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		9AAAD5CA1B9E0F4F0053F59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AAAD5CC1B9E0F4F0053F59B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9AAAD5CF1B9E0F4F0053F59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9AAAD5D51B9E0F4F0053F59B /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAAD5DA1B9E0F4F0053F59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC700631BD94FB300A07435 /* ConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterViewController.h; sourceTree = "<group>"; };
+		9AC700641BD94FB300A07435 /* ConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterViewController.m; sourceTree = "<group>"; };
 		9ADBD2C51BA2EB0E00735722 /* BrokerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrokerTest.m; sourceTree = "<group>"; };
 		9ADBD2C71BA2EC0300735722 /* Broker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Broker.h; sourceTree = "<group>"; };
 		9ADBD2C81BA2EC0300735722 /* Broker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Broker.m; sourceTree = "<group>"; };
@@ -136,11 +129,10 @@
 		9A653B4C1BA5CD58004ABC5C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9A653B4D1BA5CD7B004ABC5C /* SimpleViewController.h */,
-				9A653B4E1BA5CD7B004ABC5C /* SimpleViewController.m */,
-				9A653B4F1BA5CD7B004ABC5C /* SimpleViewController.xib */,
-				9A7A69141BC2DBD300207825 /* WalletTableViewController.h */,
-				9A7A69151BC2DBD300207825 /* WalletTableViewController.m */,
+				9AAAD5C61B9E0F4F0053F59B /* MainViewController.h */,
+				9AAAD5C71B9E0F4F0053F59B /* MainViewController.m */,
+				9AC700631BD94FB300A07435 /* ConverterViewController.h */,
+				9AC700641BD94FB300A07435 /* ConverterViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -169,6 +161,7 @@
 		9A9353981BD7F07700114781 /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
+				9A93538A1BD7EFB600114781 /* Client */,
 				9A93538B1BD7F00C00114781 /* CommonTypes.h */,
 				9A93538F1BD7F06B00114781 /* ConversionRate.h */,
 				9A9353901BD7F06B00114781 /* ConversionRate.m */,
@@ -205,13 +198,10 @@
 			children = (
 				9AAAD5C31B9E0F4F0053F59B /* AppDelegate.h */,
 				9AAAD5C41B9E0F4F0053F59B /* AppDelegate.m */,
-				9AAAD5C61B9E0F4F0053F59B /* ViewController.h */,
-				9AAAD5C71B9E0F4F0053F59B /* ViewController.m */,
 				9A9353981BD7F07700114781 /* Proxy */,
-				9A93538A1BD7EFB600114781 /* Client */,
 				9A653B4C1BA5CD58004ABC5C /* Controllers */,
 				9AEA2F2F1BA04C90004B2D61 /* Categories */,
-				9AEA2F2A1BA047B7004B2D61 /* Dollar */,
+				9AEA2F2A1BA047B7004B2D61 /* Money */,
 				9AAAD5C91B9E0F4F0053F59B /* Main.storyboard */,
 				9AAAD5CC1B9E0F4F0053F59B /* Images.xcassets */,
 				9AAAD5CE1B9E0F4F0053F59B /* LaunchScreen.xib */,
@@ -257,7 +247,7 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
-		9AEA2F2A1BA047B7004B2D61 /* Dollar */ = {
+		9AEA2F2A1BA047B7004B2D61 /* Money */ = {
 			isa = PBXGroup;
 			children = (
 				9AEA2F2B1BA04A69004B2D61 /* Money.h */,
@@ -267,7 +257,7 @@
 				9ADBD2CD1BA3117600735722 /* Wallet.h */,
 				9ADBD2CE1BA3117600735722 /* Wallet.m */,
 			);
-			name = Dollar;
+			name = Money;
 			sourceTree = "<group>";
 		};
 		9AEA2F2F1BA04C90004B2D61 /* Categories */ = {
@@ -330,6 +320,7 @@
 				TargetAttributes = {
 					9AAAD5BB1B9E0F4F0053F59B = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = XES5QWXA6F;
 					};
 					9AAAD5D41B9E0F4F0053F59B = {
 						CreatedOnToolsVersion = 6.4;
@@ -363,7 +354,6 @@
 			files = (
 				9AAAD5CB1B9E0F4F0053F59B /* Main.storyboard in Resources */,
 				9AAAD5D01B9E0F4F0053F59B /* LaunchScreen.xib in Resources */,
-				9A653B521BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */,
 				9AAAD5CD1B9E0F4F0053F59B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +362,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A653B531BA5CD7B004ABC5C /* SimpleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,12 +406,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AEA2F2D1BA04A69004B2D61 /* Money.m in Sources */,
+				9AC700651BD94FB300A07435 /* ConverterViewController.m in Sources */,
 				9AEA2F321BA04CB3004B2D61 /* NSObject+GNUStepAddons.m in Sources */,
-				9A653B501BA5CD7B004ABC5C /* SimpleViewController.m in Sources */,
 				9ADBD2CF1BA3117600735722 /* Wallet.m in Sources */,
-				9AAAD5C81B9E0F4F0053F59B /* ViewController.m in Sources */,
+				9AAAD5C81B9E0F4F0053F59B /* MainViewController.m in Sources */,
 				9A93539B1BD7F08F00114781 /* CurrencyConvertorSoap_XMLClient.m in Sources */,
-				9A7A69161BC2DBD300207825 /* WalletTableViewController.m in Sources */,
 				9AAAD5C51B9E0F4F0053F59B /* AppDelegate.m in Sources */,
 				9ADBD2C91BA2EC0300735722 /* Broker.m in Sources */,
 				9A9353961BD7F06B00114781 /* ConversionRateResponse.m in Sources */,
@@ -440,7 +428,6 @@
 			files = (
 				9ADBD2C61BA2EB0E00735722 /* BrokerTest.m in Sources */,
 				9AEA2F351BA05015004B2D61 /* MoneyTest.m in Sources */,
-				9A653B511BA5CD7B004ABC5C /* SimpleViewController.m in Sources */,
 				9ADBD2D01BA3127300735722 /* Wallet.m in Sources */,
 				9ADBD2CC1BA2FD6200735722 /* WalletTest.m in Sources */,
 				9AEA2F2E1BA04A69004B2D61 /* Money.m in Sources */,
@@ -568,10 +555,12 @@
 			baseConfigurationReference = 1106C3A67A3EA83720F166D0 /* Pods-Wallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Wallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.manuelainc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -580,10 +569,12 @@
 			baseConfigurationReference = 1E2DC3994AEC8E882700730C /* Pods-Wallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Wallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.manuelainc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

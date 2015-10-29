@@ -34,12 +34,17 @@ PODS:
     - AFNetworking (~> 2.6.0)
     - PicoKit/Soap
   - PicoKit/XMLWriter (0.7.1)
+  - Realm (0.96.2):
+    - Realm/Headers (= 0.96.2)
+  - Realm/Headers (0.96.2)
 
 DEPENDENCIES:
   - PicoKit
+  - Realm
 
 SPEC CHECKSUMS:
   AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
   PicoKit: 48314bf34dc713ec752d4f6591854d0449e856bf
+  Realm: 3ce8448151c571e90b85002d984d7f93f54fc8a3
 
 COCOAPODS: 0.38.2

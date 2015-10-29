@@ -1,5 +1,9 @@
+APPLICATION_EXTENSION_API_ONLY = YES
+CLANG_CXX_LANGUAGE_STANDARD = compiler-default
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2 $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/PicoKit"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/PicoKit"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"PicoKit" -l"xml2" -framework "CFNetwork" -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
+HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2 $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/PicoKit" "${PODS_ROOT}/Headers/Public/Realm" "${PODS_ROOT}/Headers/Public/Realm/realm"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Realm/core"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/PicoKit" -isystem "${PODS_ROOT}/Headers/Public/Realm" -isystem "${PODS_ROOT}/Headers/Public/Realm/realm"
+OTHER_CPLUSPLUSFLAGS = -std=c++1y $(inherited) -std=c++1y $(inherited)
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"PicoKit" -l"Realm" -l"c++" -l"realm-ios" -l"xml2" -framework "CFNetwork" -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
 PODS_ROOT = ${SRCROOT}/Pods
